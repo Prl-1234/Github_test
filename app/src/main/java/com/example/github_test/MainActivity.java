@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView ree=(TextView) findViewById(R.id.one);
+        TextView ret=(TextView) findViewById(R.id.last);
 
 
     }
