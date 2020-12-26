@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
         s.setVisibility(View.VISIBLE);
         s.setVisibility(View.GONE);
         s.cancelLongPress();
-        s.setText("hello");
 
     }
 }
