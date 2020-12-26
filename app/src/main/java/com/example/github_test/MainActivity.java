@@ -3,6 +3,9 @@ package com.example.github_test;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import android.view.View;
+
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -11,8 +14,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TextView ree=(TextView) findViewById(R.id.one);
-        TextView ret=(TextView) findViewById(R.id.last);
+        TextView s=(TextView) findViewById(R.id.last);
+        s.setVisibility(View.GONE);
+        s.setVisibility(View.VISIBLE);
+        s.setVisibility(View.GONE);
+        s.cancelLongPress();
 
 
     }
