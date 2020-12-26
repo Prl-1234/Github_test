@@ -14,5 +14,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TextView s=(TextView) findViewById(R.id.last);
         s.setVisibility(View.GONE);
+        s.setVisibility(View.VISIBLE);
     }
 }
